@@ -1,0 +1,46 @@
+1 
+versionshantering är när olika versioner av samma arbete sparas och kan återskapas och möjliggör en översyn av utvecklings processen av ett arbete.
+Varje ändring av arbetet blir synliggjort och man kan arbeta med olika delar av samma arbete parallellt. Versionshantering gör att ett större projekt kan delas upp i många branches, grenar som sedan kan mergas, -slås samman.
+Fördelarna med versionshantering är att många människor kan arbeta samtidigt på samma projekt och att man kan gå tillbaka till tidigare versioner eller skapa nya utan att riskera att förlora arbete om misstags görs.
+
+2
+Med merge menar man att två grenar/branches av samma repository slås ihop. 
+Tillsammans bildare de en uppdaterad variant som innehaller andringarna fran de tva grenarna. För individiuella filer som finns på båda grenarna tolkar och sammankopplar git de två filerna till en ny. 
+
+3
+Ex. två brancher X och Y ska slås samman.
+Y är huvudbranchen,l masterbranch och X ska mergas in i Y.
+Den branch man vill lägga till något i, i detta fall Y, gör man en “ git checkout Y” i terminalen.
+Sedan lägger man till branch i “main branchen” genom att skriva “git merge x”
+
+4
+Andra versionshanteringssystem förutom Git är tex.
+Fossil
+Darcs
+
+5
+Git är ett versionshanteringssystem
+Github är en online databas där filer som versionshanteras av git kan sparas och användas.
+Github är en sk “Git  repository hosting service”
+Det finns flera “värdar” som github, online tex. aws code commit.
+
+6
+En merge conflict uppstår när två commits är gjorda med olika ändringar på samma rad i en fil.
+Git vet då inte vilken commit som ska gälla. Detta innebär att ändringarna måste ske manuellt.
+
+7
+För att se ändringar och commits använder man kommandot git log i terminalen.
+
+8
+Git init skapar ett nytt git repository lokalt pa datorn.
+
+
+9
+En fördel med att dela upp ändringar i olika brancher kan vara att man vill se vilken version av koden som kommer bli bäst. Man kan alltså pröva olika ideér, och sedan om inget funkar gå tillbaka till instansen före branchningen och börja om där igen.
+Genom att dela upp koden i brancher kan flera personer arbeta samtidigt på samma projekt.
+
+10
+Git init gör ändring lokalt
+Git push gör ändring på remote servern
+ 
+
