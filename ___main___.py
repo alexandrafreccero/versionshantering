@@ -1,6 +1,6 @@
 
 def main():
-    for i in range(100):
+    for i in range(50):
         print(f"number {i}")
 
 main()
